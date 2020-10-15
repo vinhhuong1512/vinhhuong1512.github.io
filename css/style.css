@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x:hidden;
+}
+.left{
+    background-image: linear-gradient(rgba(102,102,102,0.4),rgba(102,102,102,0.4)), url('../images/component1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+}
+.right{
+    background-image: linear-gradient(rgba(0,83,161,0.4),rgba(0,83,161,0.4)),url('../images/component.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+    margin-top: 24px;
+    margin-left: 15%;
+}
+.logo-hidden{
+    visibility: hidden;
+    margin-top: 24px;
+    margin-left: 15%;
+}
+.shop{
+    font-size: 30px;
+    margin-top: 110px;
+    margin-left: 22%;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+    width: 7%;
+    letter-spacing: 3.0px;
+    color: #FFFFFF;
+}
+.title{
+    margin-top: 5px;
+    margin-left: 22%;
+    text-align: left;
+    font-size: 44px;
+    letter-spacing: 4.0px;
+    color: #FFFFFF;
+}
+.title-info{
+    text-align: left;
+    margin-left: 22%;
+    width: 70%;
+    font: normal normal 300 24px/30px DINPro;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+a{
+    padding: 5px 20px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border: 1px #FFF solid;
+    margin-left: 22%;
+
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
